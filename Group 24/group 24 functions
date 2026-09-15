@@ -133,5 +133,3 @@ if __name__ == "__main__":
 
     # diagonal: should pull [0,0], [1,1], [2,2]
     assert diagonal(sample) == [10, 5, 35]
-
-    print("All Group 24 tests passed.")
