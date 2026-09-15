@@ -1,3 +1,6 @@
+// This program prints a calendar for a given month and year.
+// Concepts covered include: functions, loops, and conditionals.
+
 #include <iostream>
 #include <iomanip>
 #include <string>
@@ -5,7 +8,7 @@
 using namespace std;
 
 
-Function declarations
+// Function declarations
 void printMonth(int year, int month);
 void printMonthTitle(int year, int month);
 void getMonthBody(int year, int month);
@@ -248,3 +251,9 @@ int main()
 
     return 0;
 }
+
+
+// Try
+// Rewrite this program using if statements instead of switch statements for the getMonthName and getNumberofDaysInMonth functions.
+// Explain the abstration of the program and state why it is important to use functions in this program.
+// Draw a diagram to illustration abstraction levels in this program using a top-down approach.
